@@ -3,7 +3,7 @@ const joke = document.querySelector(".joke");
 const closeBtn = document.querySelector(".close");
 const jokeModal = document.querySelector(".modal-sec");
 const genJoke = document.querySelector(".gen-btn");
-const apiURL = "http://api.icndb.com/jokes/random/index.html";
+const apiURL = "http://api.icndb.com/jokes/random";
 
 genJoke.addEventListener("click", showJoke);
 closeBtn.addEventListener("click", closeModal);
