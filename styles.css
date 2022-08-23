@@ -126,18 +126,34 @@ img {
   z-index: -1;
 }
 
-.close-modal {
-  display: none;
+.modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+  position: absolute;
+  top: -200%;
+  /* animation: slide-in 0.5s ease-in-out; */
 }
 
+/* @keyframes slide-in {
+  0% {
+    top: 5rem;
+  }
+  100% {
+    top: 1rem;
+  }
+} */
+
+/* .close-modal {
+  display: none;
+} */
+
 .joke-popup {
-  position: absolute;
-  left: 30%;
-  transform: translateX(-50%);
-  transform: translateY(50%);
+  position: relative;
   background-color: var(--white);
   max-width: 580px;
-  width: 100%;
+  width: 80%;
   border-radius: 5px;
   padding-bottom: 6rem;
 }
