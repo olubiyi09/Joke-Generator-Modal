@@ -131,23 +131,21 @@ img {
   justify-content: center;
   align-items: center;
   padding-top: 10%;
-  position: absolute;
-  top: -200%;
-  /* animation: slide-in 0.5s ease-in-out; */
+  animation: slide-in 0.5s ease-in-out;
 }
 
-/* @keyframes slide-in {
+@keyframes slide-in {
   0% {
     top: 5rem;
   }
   100% {
     top: 1rem;
   }
-} */
+}
 
-/* .close-modal {
+.close-modal {
   display: none;
-} */
+}
 
 .joke-popup {
   position: relative;
